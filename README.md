@@ -24,18 +24,18 @@ Used the `ipconfig` (or `ifconfig`) command to find:
 
 ### ✅ 3. Run the Scan
 1. ```bash
-   git clone https://github.com/Raj-shukla-05/Animated-Login-Page.git
+   nmap -sS 192.168.X.0/24 -oN scan_results.txt
 2. -sS: TCP SYN scan
 3. -oN: Save results to a text file
 
-###✅ 4. Analyze the Results
+### ✅ 4. Analyze the Results
 Found 4 live devices
 
 Detected open ports like 80, 443, 135, 445, etc.
 
 Identified services such as HTTP, HTTPS, RPC, and file sharing
 
-###✅ 5. Save the Results
+### ✅ 5. Save the Results
 All scan output saved in: scan_results.txt
 
 🔐 Security Observations
