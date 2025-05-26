@@ -65,3 +65,13 @@ Learn how to close unnecessary ports or services
 Explore deeper scans with nmap -sV
 
 Use Wireshark to analyze packet-level data
+
+
+---
+
+## ✅ Bonus Tip: Clean Your `scan_results.txt`
+If you plan to upload that file too, you should:
+1. **Remove or mask MAC addresses**
+2. **Remove hostnames (like `reliance.reliance`)**
+3. Or simply replace sensitive lines with placeholders like:
+
